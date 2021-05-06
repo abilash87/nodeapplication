@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Welcome to node!\n'
+  const msg = 'My first CI CD application'
   res.end(msg);
 });
 
